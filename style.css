@@ -5,6 +5,8 @@ h1{
     color: rgb(255, 0, 0);
     font-size: 60 px;
     text-align: center;
+    margin-left: 60px;
+    margin-left: 60px;
 }
 p{
         color: (11,11,11);
@@ -13,14 +15,15 @@ p{
 }
 img{
     width: 20%;
-    margin-left:760px;
+    margin-left:160px;
     border: 3px dashed rgb(0, 0, 0);
-    border-bottom: 3px solid black;
-    border-top: 3px solid black;  
 }
 .imghtml{
-    width: 20%
-    margin-right:200px;
+    margin-left: 1000px;
 }
-
-
+.logo{
+    margin-left: 500px;
+}
+div{
+    display: flex;
+}
