@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(235, 235, 235);
+    background-color:rgb(128, 192, 136);
 }
 h1{
     color: rgb(255, 0, 0);
@@ -9,21 +9,28 @@ h1{
     margin-left: 60px;
 }
 p{
-        color: (11,11,11);
+            color: (11,11,11);
     font-size: 30px;
     text-align: center;
 }
-img{
+.peixe{
     width: 20%;
     margin-left:160px;
-    border: 3px dashed rgb(0, 0, 0);
 }
-.imghtml{
-    margin-left: 1000px;
+.tk{
+    width: 20%;
+    margin-left: 800px;
 }
 .logo{
-    margin-left: 500px;
+    height: 400px;
+    width: 400px;
+    transition:0.3s;
 }
-div{
-    display: flex;
+.logo:hover{
+    opacity:0.8;
+}
+header{
+display:flex;
+background-color:rgb(255, 255, 255);
+padding:10px;
 }
